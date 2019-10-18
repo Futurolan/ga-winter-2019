@@ -1,9 +1,9 @@
 let config = {
   title: 'Gamers Assembly : Winter Edition 2019',
   logo: `/static/img/logo-100x100.png`,
-  description: 'L\'édition 2018 de la Gamers Assembly Winter Edition aura lieu du 1er au 2 décembre. À la Salle de l\'Agora - Jaunay-Marigny (86).',
+  description: 'L\'édition 2019 de la Gamers Assembly Winter Edition aura lieu du 1er au 2 décembre. À la Salle de l\'Agora - Jaunay-Marigny (86).',
   metaImagePath: `/static/img/logo-200x200.png`,
-  gaTrackingId: 'UA-0000000-0',
+  gaTrackingId: 'UA-128777022-9',
   mainPartner: {
     logo: '/static/img/logoJM106.png',
     url: 'http://www.jaunay-marigny.fr/'
@@ -87,7 +87,7 @@ let config = {
     pageId: 6
   },
   press: {
-    active: true,
+    active: false,
     pageId: 7
   },
   legals: {
@@ -95,7 +95,7 @@ let config = {
     pageId: 8
   },
   recruit: {
-    active: true,
+    active: false,
     title: 'Recrutement',
     description: 'Devenir bénévole pour la GAMERS ASSEMBLY, c\'est par ici !!!',
     formUrl: 'https://goo.gl/forms/84pHQfSp50RcuUel2'

@@ -1,5 +1,5 @@
 # Gamers Assemby Front
-This repository contain the Gamers Assembly winter 2019 website frontend.
+This repository contain the Gamers Assembly front website frontend.
 
 It's build on fun technologies like:
 - React Nextjs (https://github.com/zeit/next.js)

@@ -32,26 +32,6 @@ export default class MyDocument extends Document {
             gtag('config', '${config.gaTrackingId}');
           ` }}
           />
-          <script dangerouslySetInnerHTML={{
-            __html: `
-              var accordions = document.getElementsByClassName("info-collapse");
-              alert(accordions.length)
-              for (var i = 0; i < accordions.length; i++) {
-                accordions[i].onclick = function() {
-                alert('ici');
-                  this.classList.toggle('is-open');
-               
-                  var content = this.nextElementSibling;
-                  if (content.style.maxHeight) {
-                    // accordion is currently open, so close it
-                    content.style.maxHeight = null;
-                  } else {
-                    // accordion is currently closed, so open it
-                    content.style.maxHeight = content.scrollHeight + "px";
-                  }
-                }
-              }
-          ` }} />
         </Head>
         <body>
           <Main />

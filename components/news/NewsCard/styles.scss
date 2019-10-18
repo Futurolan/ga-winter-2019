@@ -1,0 +1,16 @@
+.ga-news-card{
+  display:flex;
+  flex-direction: column;
+  height: 100%;
+  cursor:pointer;
+  transition: all 0.3s;
+
+  .ribbon{
+    opacity:0.6;
+    border:none
+  }
+
+  &:hover{
+    transform: scale(1.05);
+  }
+}

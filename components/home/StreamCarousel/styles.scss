@@ -1,0 +1,163 @@
+@import '../../../node_modules/bulma/sass/utilities/all';
+
+.ga-stream-carousel{
+  .next,.previous{
+    font-size:5rem;
+    position:absolute;
+
+    cursor: pointer;
+    @include mobile{
+      top:30px;
+    }
+    @include tablet{
+      top:125px;
+    }
+    &:hover{
+      color:#333;
+    }
+  }
+  .next{
+    @include mobile{
+      right:-20px;
+    }
+    @include tablet{
+      right:0
+    }
+  }
+  .previous{
+    @include mobile{
+      left:-20px;
+    }
+    @include tablet{
+      left:0;
+    }
+
+  }
+  .ga-stream-carousel-content {
+    margin:2rem;
+    position:relative;
+
+    @include mobile{
+      height: 180px;
+    }
+    @include tablet{
+      height: 360px;
+    }
+    &.is-single{
+      .ga-stream-carousel-player-item {
+        position: absolute;
+        transition: all 450ms ease 0s;
+        opacity: 0;
+
+        &.item-3 {
+          z-index: 3;
+          opacity: 1;
+        }
+
+        @include mobile {
+          width: 80%;
+          left: 10%;
+          height: 180px;
+        }
+
+        @include tablet {
+          width: 80%;
+          left: 10%;
+          height: 360px;
+        }
+
+        @include desktop {
+          left: calc(50% - 320px);
+          width: 60%;
+        }
+      }
+    }
+    &:not(.is-single) {
+      .ga-stream-carousel-player-item {
+        position: absolute;
+        transition: all 450ms ease 0s;
+        opacity: 0;
+
+        @include mobile {
+          width: 80%;
+          left: 10%;
+          height: 180px;
+
+          &.item-3 {
+            left: 10%;
+            z-index: 3;
+            transform: scale(1);
+            opacity: 1;
+          }
+        }
+
+        @include tablet {
+          width: 80%;
+          left: 10%;
+          height: 360px;
+
+          &.item-3 {
+            left: 10%;
+            z-index: 3;
+            transform: scale(1);
+            opacity: 1;
+          }
+        }
+        @include desktop{
+
+          width: 640px;
+          left: auto;
+          &.item-0 {
+            left: calc(5% - 60px);
+            transform: scale(0.5);
+            opacity: 0;
+          }
+          &.item-1 {
+            left: calc(5% - 60px);
+            z-index: 1;
+            transform: scale(0.5);
+            opacity: 1;
+          }
+          &.item-2 {
+            left: calc(25% - 190px);
+            z-index: 2;
+            transform: scale(0.7);
+            opacity: 1;
+
+          }
+          &.item-3 {
+            left: calc(50% - 320px);
+            z-index: 3;
+            transform: scale(1);
+            opacity: 1;
+
+          }
+          &.item-4 {
+            left: calc(75% - 448px);
+            z-index: 2;
+            transform: scale(0.7);
+            opacity: 1;
+
+          }
+          &.item-5 {
+            left: calc(95% - 580px);
+            z-index: 1;
+            transform: scale(0.5);
+            opacity: 1;
+          }
+          &.item-6 {
+            transform: scale(0.5);
+            left: calc(95% - 580px);
+            opacity: 0;
+          }
+        }
+      }
+
+    }
+
+  }
+  .ga-stream-carousel-button{
+    padding:0 1rem 2rem 1rem;
+  }
+
+}

@@ -1,0 +1,19 @@
+.partner-logo {
+
+  a:hover img{
+    opacity: 0.8;
+  }
+
+
+  &.box{
+    opacity: 0;
+    animation:fadeIn ease-in 1;
+    animation-fill-mode:forwards;
+    animation-duration:0.7s;
+  }
+  @keyframes fadeIn {
+    from { opacity:0; } to { opacity:1; }
+  }
+
+}
+

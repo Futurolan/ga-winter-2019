@@ -1,0 +1,56 @@
+@import '../../../node_modules/bulma/sass/utilities/all';
+
+.ga-stream-list{
+  .panel{
+    .panel-container{
+      padding:2rem;
+      .columns{
+
+
+
+
+        .image{
+          position:relative;
+          .is-online{
+            position:absolute;
+            top:5px;
+            right:5px;
+            width:20px;
+            height:20px;
+            background-color:green;
+            border-radius:100%;
+            opacity: 0.8;
+          }
+          .is-offline{
+            position:absolute;
+            top:5px;
+            right:5px;
+            width:20px;
+            height:20px;
+            background-color:darkred;
+            border-radius:100%;
+            opacity: 0.8;
+          }
+          .name{
+            position:absolute;
+            top:0px;
+            left:0px;
+            padding:0.1rem 0.8rem;
+            opacity: 0.7;
+          }
+          .status{
+            position:absolute;
+            bottom:0px;
+            left:0px;
+            padding:0.1rem 0.8rem;
+            opacity: 0.7;
+            white-space: nowrap;
+            overflow:hidden;
+            width: 100%;
+            text-overflow: ellipsis;
+          }
+        }
+      }
+    }
+  }
+}

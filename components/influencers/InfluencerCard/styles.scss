@@ -1,0 +1,15 @@
+.influencer-card{
+  transition: all 0.3s;
+
+  padding:0.6rem;
+  &:hover{
+    transform: scale(1.01);
+  }
+
+  .image {
+    margin-bottom: 0.5rem;
+  }
+
+
+
+}

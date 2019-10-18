@@ -1,0 +1,14 @@
+.ga-accordion{
+  .panel-heading{
+    cursor:pointer;
+  }
+  .panel-block{
+    height:0;
+    padding:0;
+    overflow: hidden;
+    &.is-open{
+      height:auto;
+      padding:1rem;
+    }
+  }
+}

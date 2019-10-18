@@ -1,0 +1,55 @@
+
+@include  tablet{
+  .title-line {
+    overflow: hidden;
+    &>span {
+
+      position: relative;
+      &:before, &:after {
+
+        content: '';
+        position: absolute;
+        top: 50%;
+        border-bottom: 2px solid;
+        width: 1337%;
+        margin: 0 20px;
+      }
+      &:before {
+        right: 100%;
+      }
+      &:after {
+        left: 100%;
+      }
+    }
+  }
+}
+
+.has-bg-star{
+  background-size:cover;
+  background: url('../static/img/bg-white-star.jpg') fixed center center;
+}
+
+.has-bg-grey-area {
+  background-size: cover;
+  background: url('../static/img/bg-grey-area.jpg')  fixed center center;
+}
+
+.has-cursor-pointer{
+  cursor:pointer;
+}
+
+
+.image.is-5by1{
+  padding-top: 20%;
+}
+
+.image.is-5by1 img{
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+

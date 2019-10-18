@@ -1,0 +1,15 @@
+.ga-footer{
+ &.footer{
+   padding-bottom:3rem;
+   .ga-footer-links{
+     a{
+       margin: 0 1rem;
+     }
+   }
+   .ga-social-networks-links{
+     a{
+       margin: 0 1rem;
+     }
+   }
+ }
+}

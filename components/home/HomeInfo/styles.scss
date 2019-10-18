@@ -1,0 +1,18 @@
+.ga-home-info{
+
+  .box{
+    height:100%;
+
+    .content{
+      strong {
+        color: #FFF;
+      }
+      a{
+        color:#FFF;
+        &:hover{
+          color:#FFF;
+        }
+      }
+    }
+  }
+}

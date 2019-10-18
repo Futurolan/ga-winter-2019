@@ -1,0 +1,27 @@
+@import '../../../node_modules/bulma/sass/utilities/all';
+
+.ga-tournament-content{
+  .box.content{
+    border-radius: 4px;
+  }
+
+  .ga-tournament-content-image {
+    position:relative;
+    .pegi img{
+      position: absolute;
+      bottom: 0;
+      right:0;
+      height: auto;
+      @include tablet-only{
+        height:60px;
+      }
+      @include  mobile{
+        height:30px;
+      }
+    }
+  }
+  .tags{
+    margin-top:0.5rem;
+  }
+
+}

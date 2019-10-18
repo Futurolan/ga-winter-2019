@@ -1,0 +1,24 @@
+.exhibitor-card{
+  transition: all 0.3s;
+
+  &:hover{
+    transform: scale(1.01);
+  }
+
+  .image {
+    margin-bottom: 1rem;
+  }
+
+
+  .is-9{
+    border-left: 1px solid lightgrey;
+    margin:1rem;
+    .description {
+      .content {
+        margin-top: 1rem;
+      }
+    }
+
+  }
+
+}

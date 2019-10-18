@@ -1,0 +1,32 @@
+
+.ga-header {
+  position:fixed;
+  width:100%;
+  z-index:10;
+  nav {
+    .navbar-brand{
+      margin-left:2rem;
+    }
+    .navbar-burger{
+      margin-top:1.5rem;
+      margin-right:2rem;
+    }
+    .navbar-item{
+      margin:0 0.2rem;
+    }
+    .navbar-end{
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          height: 106px;
+        }
+      }
+    }
+  }
+}
+
+.site-content{
+  margin-top: 6.6rem;
+}

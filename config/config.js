@@ -1,15 +1,15 @@
 let config = {
   title: 'Gamers Assembly : Winter Edition 2019',
   logo: `/static/img/logo-100x100.png`,
-  description: 'L\'édition 2019 de la Gamers Assembly Winter Edition aura lieu du 1er au 2 décembre. À la Salle de l\'Agora - Jaunay-Marigny (86).',
+  description: 'L\'édition 2019 de la Gamers Assembly Winter Edition aura lieu du 7 au 8 décembre. À la salle des fêtes Améthyste - Saint-Georges-Les-Baillargeaux (86).',
   metaImagePath: `/static/img/logo-200x200.png`,
   gaTrackingId: 'UA-128777022-9',
   mainPartner: {
     logo: '/static/img/logoJM106.png',
-    url: 'http://www.jaunay-marigny.fr/'
+    url: 'http://www.saint-georges-les-baillargeaux.fr'
   },
   home: {
-    banner: '/static/img/bg-winter-v1.png',
+    banner: '/static/img/bg-winter-2019.png',
     twitterAccount: 'GamersAssembly',
     partners: {
       active: false,

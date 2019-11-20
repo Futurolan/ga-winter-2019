@@ -3,8 +3,7 @@ const menu = [
   { type: 'config', id: 'live' },
   { type: 'config', id: 'tickets' },
   { type: 'config', id: 'tournaments' },
-  { type: 'config', id: 'info' },
-  { type: 'config', id: 'partners' }
+  { type: 'config', id: 'info' }
 ]
 
 module.exports = menu

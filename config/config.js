@@ -5,7 +5,7 @@ let config = {
   metaImagePath: `/static/img/logo-200x200.png`,
   gaTrackingId: 'UA-128777022-9',
   mainPartner: {
-    logo: '/static/img/logoJM106.png',
+    logo: '/static/img/logo_gp.png',
     url: 'http://www.saint-georges-les-baillargeaux.fr'
   },
   home: {

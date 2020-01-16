@@ -63,16 +63,16 @@ export const tournaments = gql`
           path
         }
         image:fieldTournamentImage{
-          mobile:derivative(style:CROP_2_1_720X360){
+          mobile:derivative(style:CROP21720X360){
             url
           }
-          desktop:derivative(style:CROP_2_1_288X144){
+          desktop:derivative(style:CROP21288X144){
             url
           }
-          widescreen:derivative(style:CROP_2_1_352X176){
+          widescreen:derivative(style:CROP21352X176){
             url
           }
-          fullhd:derivative(style:CROP_2_1_416X208){
+          fullhd:derivative(style:CROP21416X208){
             url
           }
         }
@@ -88,16 +88,16 @@ export const tournaments = gql`
             ...on NodeGame{
               pegi:fieldGamePegi
               image:fieldGameImage{
-                mobile:derivative(style:CROP_2_1_720X360){
+                mobile:derivative(style:CROP21720X360){
                   url
                 }
-                desktop:derivative(style:CROP_2_1_288X144){
+                desktop:derivative(style:CROP21288X144){
                   url
                 }
-                widescreen:derivative(style:CROP_2_1_352X176){
+                widescreen:derivative(style:CROP21352X176){
                   url
                 }
-                fullhd:derivative(style:CROP_2_1_416X208){
+                fullhd:derivative(style:CROP21416X208){
                   url
                 }
               }

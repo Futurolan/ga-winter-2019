@@ -65,16 +65,16 @@ export const news = gql`
         }
         description:fieldNewsDescription
         image:fieldNewsImage{
-          mobile:derivative(style:CROP_5_1_705X141){
+          mobile:derivative(style:CROP51705X141){
             url
           }
-          desktop:derivative(style:CROP_5_1_960X192){
+          desktop:derivative(style:CROP51960X192){
             url
           }
-          widescreen:derivative(style:CROP_5_1_1155X231){
+          widescreen:derivative(style:CROP511155X231){
             url
           }
-          fullhd:derivative(style:CROP_5_1_1345X269){
+          fullhd:derivative(style:CROP511345X269){
             url
           }
         }

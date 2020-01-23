@@ -57,7 +57,7 @@ export const query = gql`
                     id
                     name:fieldFamilyActivityTitle
                     image:fieldFamilyActivityImage {
-                      derivative(style:FAMILY_150X150){
+                      derivative(style:FAMILY150X150){
                         url
                       }
                     }

@@ -48,7 +48,7 @@ export const exhibitors = gql`
           processed
         }
         image: fieldExhibitorImage {
-          derivative(style: EXHIBITOR_150X150) {
+          derivative(style: EXHIBITOR150X150) {
             url
           }
         }

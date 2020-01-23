@@ -48,16 +48,16 @@ export const influencers = gql`
         }
         url:fieldInfluencerUrl
         image:fieldInfluencerImage{
-          mobile:derivative(style:CROP_1_1_705X705){
+          mobile:derivative(style:CROP11705X705){
             url
           }
-          desktop:derivative(style:CROP_1_1_200X200){
+          desktop:derivative(style:CROP11200X200){
             url
           }
-          widescreen:derivative(style:CROP_1_1_250X250){
+          widescreen:derivative(style:CROP11250X250){
             url
           }
-          fullhd:derivative(style:CROP_1_1_300X300){
+          fullhd:derivative(style:CROP11300X300){
             url
           }
         }
